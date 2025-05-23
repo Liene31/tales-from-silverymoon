@@ -85,9 +85,10 @@ a {
   background-image: url(images/hero-image.jpg);
   background-size: cover;
   padding: 1em;
-  height: 50%;
+  height: 50vh;
   flex-direction: column;
   justify-content: end;
+  overflow-y: auto;
 }
 
 /* Post Section */
