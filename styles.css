@@ -24,13 +24,31 @@ h1,
   text-shadow: 1px 1px 2px black;
 }
 
+h2,
+.post-section p,
+.post-section span {
+  color: #222831;
+}
+
 h1 {
   font-size: 1.5rem;
 }
 
-p {
+h2 {
+  font-size: 1.25rem;
+}
+
+.hero-post p {
   font-size: 1rem;
   line-height: 1.5;
+}
+
+.post-section p {
+  font-size: 0.85rem;
+}
+
+a {
+  text-decoration: none;
 }
 
 .post-date {
@@ -76,8 +94,7 @@ ul {
   font-size: 0.7rem;
 }
 
-a {
-  text-decoration: none;
+nav a {
   font-size: 0.85rem;
   text-transform: uppercase;
   color: #e8bcb9;
