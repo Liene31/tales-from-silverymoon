@@ -42,9 +42,9 @@ h1,
 
 header,
 ul,
-.logo {
+.logo,
+.hero-post {
   display: flex;
-  align-items: center;
 }
 
 /* Navigation */
@@ -58,6 +58,10 @@ header {
 ul {
   list-style: none;
   gap: 1.5em;
+}
+
+.logo {
+  align-items: center;
 }
 
 .logo-text,
@@ -80,7 +84,10 @@ a {
 .hero-post {
   background-image: url(images/hero-image.jpg);
   background-size: cover;
-  padding: 15px;
+  padding: 1em;
+  height: 50vh;
+  flex-direction: column;
+  justify-content: end;
 }
 
 /* Post Section */
