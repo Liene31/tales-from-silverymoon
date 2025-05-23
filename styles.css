@@ -16,14 +16,17 @@ h2 {
   font-family: "Abril Fatface", serif;
 }
 
-/* Navigation */
+/* Flex */
 
 header,
 ul,
-.logo {
+.logo,
+.post-section {
   display: flex;
   align-items: center;
 }
+
+/* Navigation */
 
 header {
   justify-content: space-between;
@@ -51,6 +54,20 @@ a {
   font-size: 0.85rem;
 }
 
+/* Hero Post */
+
+.hero-post {
+  background-image: url(images/hero-image.jpg);
+  background-size: cover;
+}
+
+/* Post Section */
+
+.post-section {
+  flex-direction: column;
+  padding: 0 0.7em;
+}
+
 /* Images */
 
 .logo img {
@@ -58,7 +75,8 @@ a {
 }
 
 article img {
-  width: 200px;
+  width: 100%;
+  object-fit: cover;
 }
 
 /* .abril-fatface-regular {
