@@ -47,14 +47,21 @@ ul,
   display: flex;
 }
 
-/* Navigation */
+/* Sections */
+
+header,
+footer {
+  background-color: #222831;
+  color: #e8bcb9;
+}
 
 header {
   justify-content: space-between;
-  background-color: #222831;
   font-family: "Abril Fatface", serif;
   padding: 0 0.8em;
 }
+
+/* Navigation */
 
 ul {
   list-style: none;
@@ -65,11 +72,6 @@ ul {
   align-items: center;
 }
 
-.logo-text,
-a {
-  color: #e8bcb9;
-}
-
 .logo-text {
   font-size: 0.7rem;
 }
@@ -78,6 +80,7 @@ a {
   text-decoration: none;
   font-size: 0.85rem;
   text-transform: uppercase;
+  color: #e8bcb9;
 }
 
 /* Hero Post */
@@ -111,6 +114,22 @@ a {
 
 .post-two {
   grid-area: two;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 0.95em 0;
+}
+
+footer p {
+  margin: 0;
+  line-height: 0.5;
+}
+
+footer p,
+footer span {
+  font-size: 0.5rem;
 }
 
 /* Images */
