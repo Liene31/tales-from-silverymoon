@@ -53,6 +53,7 @@ header {
   justify-content: space-between;
   background-color: #222831;
   font-family: "Abril Fatface", serif;
+  padding: 0 0.8em;
 }
 
 ul {
