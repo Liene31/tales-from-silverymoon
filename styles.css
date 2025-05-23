@@ -20,8 +20,7 @@ h2 {
 
 header,
 ul,
-.logo,
-.post-section {
+.logo {
   display: flex;
   align-items: center;
 }
@@ -64,8 +63,22 @@ a {
 /* Post Section */
 
 .post-section {
-  flex-direction: column;
-  padding: 0 0.7em;
+  display: grid;
+  grid-template-areas:
+    "... ... ..."
+    "... one ..."
+    "... two ..."
+    "... ... ...";
+  grid-template-columns: 1em 1fr 1em;
+  grid-template-rows: 1em repeat(2, 1fr) 1em;
+}
+
+.post-one {
+  grid-area: one;
+}
+
+.post-two {
+  grid-area: two;
 }
 
 /* Images */
@@ -76,6 +89,7 @@ a {
 
 article img {
   width: 100%;
+
   object-fit: cover;
 }
 
