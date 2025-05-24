@@ -147,11 +147,11 @@ nav a {
     "... ... ...";
 }
 
-.post-one {
+.post-one-div {
   grid-area: one;
 }
 
-.post-two {
+.post-two-div {
   grid-area: two;
 }
 
@@ -170,7 +170,7 @@ footer {
 }
 
 footer p {
-  margin: 0;
+  margin: 0 0 0.5em 0;
   line-height: 0.5;
 }
 
